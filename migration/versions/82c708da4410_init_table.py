@@ -20,7 +20,7 @@ def upgrade() -> None:
     op.create_table(
         "mails",
         sa.Column("id", sa.Integer(), nullable=False),
-        sa.Column("to_send", sa.String(length=256), nullable=True),
+        sa.Column("email", sa.String(length=256), nullable=True),
         sa.Column("sent", sa.Boolean(), nullable=True),
         sa.PrimaryKeyConstraint("id"),
     )

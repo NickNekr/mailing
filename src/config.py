@@ -27,9 +27,9 @@ class MailConfig(Config):
 
 
 class SmptConfig(MailConfig):
-    HOST = "stmp.mail.ru"
+    HOST = "smpt.mail.ru"
     SUBJECT = "Python"
-    TO = ["nnnekrasovasdeadsdau@yandex.ru"]
+    TO = ["asdadqwdasdqwdau@yandex.ru", "nikolay65kg@mail.ru"]
     FROM = "nikolay41kg@mail.ru"
     TEXT = "Hello from python!"
 
